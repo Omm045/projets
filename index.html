@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMM Space | Professional Portfolio</title>
+    <meta name="description" content="Professional portfolio showcasing innovative web projects and tech experiments.">
+    <meta name="keywords" content="portfolio, web development, JavaScript, Python, projects">
+    <meta name="author" content="Omm Prakash Panda">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grain-overlay"></div>
+    
+    <!-- Animated background particles -->
+    <div class="particles-container">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+    
+    <nav class="navbar">
+    <div class="container">
+        <div class="nav-brand">
+            <span class="brand-text">omm.space</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="https://github.com/Omm045" target="_blank" class="nav-github" title="Visit my GitHub">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+</nav>
+
+    
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="reveal-animation">
+                    <h1 class="hero-title">
+                        Crafting Digital
+                        <span class="gradient-text">Experiences</span>
+                    </h1>
+                </div>
+                <div class="reveal-animation reveal-delay-1">
+                    <p class="hero-subtitle">
+                        A curated collection of modern web applications and development experiments. 
+                        Built with precision, designed for impact.
+                    </p>
+                </div>
+                <div class="hero-cta reveal-animation reveal-delay-2">
+                    <button class="btn-primary ripple-effect" onclick="scrollToSection('projects')">
+                        <span>View Projects</span>
+                        <div class="button-glow"></div>
+                    </button>
+                    <a href="https://www.linkedin.com/in/omm-prakash-panda-a52131350" target="_blank" class="btn-secondary ripple-effect">
+                        <span>Connect</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual reveal-animation reveal-delay-3">
+                <div class="floating-card glass-morphism">
+                    <div class="card-glow"></div>
+                    <div class="code-snippet">
+                        <div class="code-line typing-animation">
+                            <span class="code-keyword">const</span> 
+                            <span class="code-variable">portfolio</span> 
+                            <span class="code-operator">=</span> 
+                            <span class="code-bracket">{</span>
+                        </div>
+                        <div class="code-line code-indent typing-animation typing-delay-1">
+                            <span class="code-property">focus</span><span class="code-operator">:</span> 
+                            <span class="code-string">'innovation'</span><span class="code-operator">,</span>
+                        </div>
+                        <div class="code-line code-indent typing-animation typing-delay-2">
+                            <span class="code-property">passion</span><span class="code-operator">:</span> 
+                            <span class="code-string">'development'</span><span class="code-operator">,</span>
+                        </div>
+                        <div class="code-line code-indent typing-animation typing-delay-3">
+                            <span class="code-property">status</span><span class="code-operator">:</span> 
+                            <span class="code-string">'building'</span>
+                        </div>
+                        <div class="code-line typing-animation typing-delay-4">
+                            <span class="code-bracket">}</span><span class="code-operator">;</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header scroll-reveal">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Explore my latest web applications</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card glass-morphism scroll-reveal">
+                    <div class="project-bg-glow"></div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                                <line x1="9" y1="9" x2="15" y2="9"/>
+                                <line x1="9" y1="13" x2="15" y2="13"/>
+                                <line x1="9" y1="17" x2="13" y2="17"/>
+                            </svg>
+                        </div>
+                        <span class="project-status pulse-animation">Live</span>
+                    </div>
+                    
+                    <h3 class="project-title">Calculator</h3>
+                    <p class="project-description">
+                        A simple yet elegant calculator app with arithmetic functions, 
+                        history tracking, and theme switcher. Works on all devices with offline download capability.
+                    </p>
+
+                    <div class="project-tech">
+                        <span class="tech-badge" data-tooltip="Python backend with math operations">Python</span>
+                        <span class="tech-badge" data-tooltip="Clean and responsive interface">HTML/CSS</span>
+                        <span class="tech-badge" data-tooltip="Real-time calculation handling">JavaScript</span>
+                    </div>
+
+                    <a href="https://calculator.projects-omm.space" target="_blank" class="project-link">
+                        <span>Visit Project</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15 3 21 3 21 9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>
+                    </a>
+                </div>
+                
+                <div class="project-card glass-morphism scroll-reveal scroll-delay-1">
+                    <div class="project-bg-glow"></div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                                <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                            </svg>
+                        </div>
+                        <span class="project-status pulse-animation">Live</span>
+                    </div>
+                    
+                    <h3 class="project-title">Password Generator</h3>
+                    <p class="project-description">
+                        Professional password generation tool with advanced customization, 
+                        strength analysis, and secure random algorithms.
+                    </p>
+                    
+                    <div class="project-tech">
+                        <span class="tech-badge" data-tooltip="Backend logic for secure password generation algorithms">Python</span>
+                        <span class="tech-badge" data-tooltip="Frontend interactions and real-time password generation">JavaScript</span>
+                        <span class="tech-badge" data-tooltip="Implements cryptographic standards for password strength">Security</span>
+                    </div>
+                    
+                    <a href="https://passgen.projects-omm.space" target="_blank" class="project-link">
+                        <span>Visit Project</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15 3 21 3 21 9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>
+                    </a>
+                </div>
+
+                <!-- Games Collection Project (3rd Project) -->
+                <div class="project-card glass-morphism scroll-reveal scroll-delay-2">
+                    <div class="project-bg-glow"></div>
+                    <div class="project-header">
+                        <div class="project-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="6" cy="6" r="1"/>
+                                <circle cx="18" cy="6" r="1"/>
+                                <circle cx="6" cy="18" r="1"/>
+                                <circle cx="18" cy="18" r="1"/>
+                                <path d="M7 7h10v10H7z"/>
+                            </svg>
+                        </div>
+                        <span class="project-status pulse-animation">Live</span>
+                    </div>
+                    <h3 class="project-title">Games Collection</h3>
+                    <p class="project-description">
+                        Interactive games built with Python backend and modern web technologies. Features Tic-Tac-Toe, Snake, and Sudoku with responsive design and smooth animations.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-badge" data-tooltip="Game logic and backend server">Python</span>
+                        <span class="tech-badge" data-tooltip="Markup structure">HTML</span>
+                        <span class="tech-badge" data-tooltip="Styling and animations">CSS</span>
+                        <span class="tech-badge" data-tooltip="Interactive gameplay mechanics">JavaScript</span>
+                    </div>
+                    <a href="https://game.projects-omm.space" target="_blank" class="project-link">
+                        <span>Explore Games</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
+                            <polyline points="15 3 21 3 21 9"/>
+                            <line x1="10" y1="14" x2="21" y2="3"/>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content scroll-reveal">
+                <h2 class="about-title">About This Space</h2>
+                <div class="about-text">
+                    <p>
+                        This portfolio represents a collection of carefully crafted web applications 
+                        and experiments. Each project is an exploration of modern web technologies, 
+                        focusing on clean design, optimal performance, and user experience.
+                    </p>
+                    <p>
+                        Built with modern standards and best practices, these applications demonstrate 
+                        technical proficiency across frontend and backend development.
+                    </p>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-item scroll-reveal scroll-delay-1">
+                        <span class="stat-value counter" data-target="3">0</span>
+                        <span class="stat-label">Live Projects</span>
+                    </div>
+                    <div class="stat-item scroll-reveal scroll-delay-2">
+                        <span class="stat-value counter" data-target="100">0</span>
+                        <span class="stat-label">Uptime</span>
+                    </div>
+                    <div class="stat-item scroll-reveal scroll-delay-3">
+                        <span class="stat-value">Modern</span>
+                        <span class="stat-label">Tech Stack</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-text">Designed and developed by Omm Prakash Panda</p>
+                <div class="footer-links">
+                    <a href="https://www.linkedin.com/in/omm-prakash-panda-a52131350" target="_blank" class="footer-link">LinkedIn</a>
+                    <a href="https://github.com/Omm045" target="_blank" class="footer-link">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Tooltip element -->
+    <div class="tooltip glass-morphism" id="tooltip"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
